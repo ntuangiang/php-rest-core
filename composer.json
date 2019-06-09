@@ -1,0 +1,24 @@
+{
+  "name": "ntuangiang/php-rest-framework",
+  "description": "This is rest api",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Tuan Giang",
+      "email": "ntuangiang@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rest\\": "src/"
+    }
+  },
+  "require": {
+    "ntuangiang/php-ioc": "dev-master"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
