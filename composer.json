@@ -2,7 +2,6 @@
   "name": "ntuangiang/php-rest-core",
   "description": "This is rest api",
   "minimum-stability": "dev",
-  "prefer-stable": true,
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -17,7 +16,6 @@
     }
   },
   "require": {
-    "ntuangiang/php-ioc": "dev-master"
   },
 
   "require-dev": {
