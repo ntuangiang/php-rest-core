@@ -1,7 +1,6 @@
 {
   "name": "ntuangiang/php-rest-core",
   "description": "This is rest api",
-  "prefer-stable": true,
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -10,6 +9,11 @@
       "email": "ntuangiang@outlook.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/ntuangiang/php-rest-core/issues"
+  },
+  "prefer-stable": true,
+
   "autoload": {
     "psr-4": {
       "Rest\\": "src/"
