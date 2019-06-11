@@ -1,7 +1,6 @@
 {
   "name": "ntuangiang/php-rest-core",
   "description": "This is rest api",
-  "minimum-stability": "stable",
   "prefer-stable": true,
   "type": "library",
   "license": "MIT",
