@@ -13,20 +13,19 @@
     "issues": "https://github.com/ntuangiang/php-rest-core/issues"
   },
   "prefer-stable": true,
+  "minimum-stability": "dev-master",
 
   "autoload": {
     "psr-4": {
       "Rest\\": "src/"
     }
   },
+
   "require": {
   },
 
   "require-dev": {
+    "phpunit/phpunit": "^8"
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
-  }
+
 }
