@@ -1,10 +1,8 @@
 <?php
 
-namespace Php\Framework\Db\Mysql;
+namespace Rest\Db\Mysql;
 
-include_once "Php/Framework/Db/Core/AbstractConnection.php";
-
-use \Php\Framework\Db\Core\AbstractConnection;
+use \Rest\Db\Core\AbstractConnection;
 use \PDOException;
 use \PDO;
 

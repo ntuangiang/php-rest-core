@@ -1,10 +1,8 @@
 <?php
 
-namespace Php\Framework\Db\Core\Query;
+namespace Rest\Db\Core\Query;
 
-include_once "../AbstractConnection.php";
-
-use Php\Framework\Db\Core\AbstractConnection;
+use \Rest\Db\Core\AbstractConnection;
 use \PDOStatement;
 use \PDO;
 

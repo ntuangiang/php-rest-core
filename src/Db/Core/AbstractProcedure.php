@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Framework\Db\Core;
+namespace Rest\Db\Core;
 
 abstract class AbstractProcedure
 {

@@ -1,14 +1,10 @@
 <?php
 
-namespace Php\Framework\Db\Mysql;
+namespace Rest\Db\Mysql;
 
-include_once "../Core/AbstractSchema.php";
-include_once "Query/MySqlQuery.php";
-include_once "Query/MysqlExecute.php";
-
-use Php\Framework\Db\Core\AbstractSchema;
-use Php\Framework\Db\Mysql\Query\MysqlExecute;
-use Php\Framework\Db\Mysql\Query\MySqlQuery;
+use \Rest\Db\Core\AbstractSchema;
+use \Rest\Db\Mysql\Query\MysqlExecute;
+use \Rest\Db\Mysql\Query\MySqlQuery;
 
 class MysqlSchema extends AbstractSchema
 {

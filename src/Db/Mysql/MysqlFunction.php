@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Framework\Db\Mysql;
+namespace Rest\Db\Mysql;
 
 class MysqlFunction
 {

@@ -1,12 +1,9 @@
 <?php
 
-namespace Php\Framework\Db\Core;
+namespace Rest\Db\Core;
 
-include_once "Query/AbstractQuery.php";
-include_once "Query/AbstractExecute.php";
-
-use Php\Framework\Db\Core\Query\AbstractExecute;
-use Php\Framework\Db\Core\Query\AbstractQuery;
+use \Rest\Db\Core\Query\AbstractExecute;
+use \Rest\Db\Core\Query\AbstractQuery;
 
 abstract class AbstractSchema
 {

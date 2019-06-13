@@ -1,11 +1,9 @@
 <?php
 
-namespace Php\Framework\Db\Mysql\Query;
+namespace Rest\Db\Mysql\Query;
 
-include_once "../../Core/Query/AbstractExecute.php";
-
-use Php\Framework\Db\Core\Query\AbstractExecute;
-use Php\Framework\Db\MysqlConnection;
+use Rest\Db\Core\Query\AbstractExecute;
+use Rest\Db\Mysql\MysqlConnection;
 use \PDOStatement;
 use \PDOException;
 use \PDO;
