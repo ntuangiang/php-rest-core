@@ -1,6 +1,6 @@
 <?php
 
-namespace Rest\Http\Rest;
+namespace Rest\Http;
 
 abstract class AbstractRestful
 {
